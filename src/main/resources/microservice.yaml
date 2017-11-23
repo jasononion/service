@@ -1,7 +1,7 @@
 APPLICATION_ID: pojotest
 service_description:
   name: service
-  version: 0.0.8
+  version: 0.0.1
   properties:
     allowCrossApp: false
 cse:
@@ -21,6 +21,6 @@ cse:
   rest:
     address: 0.0.0.0:8080
   credentials:
-    accessKey: TY8HSBXSAEO4FNQYDJNQ
-    secretKey: 43cdsj4ceju8fbM3SfDfrMtg3Ksq4YG1LTZpxfCT
+    accessKey: ak
+    secretKey: sk
     akskCustomCipher: default
