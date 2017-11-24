@@ -8,7 +8,7 @@ import io.servicecomb.foundation.common.utils.Log4jUtils;
  * <功能详细描述>
  *
  * @author  someguy
- * @version  [版本号, Nov 23, 2017]
+ * @version  [版本号, Nov 24, 2017]
  * @see  [相关类/方法]
  * @since  [产品/模块版本]
  */
