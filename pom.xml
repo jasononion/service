@@ -19,6 +19,17 @@
         <demo.main>com.service.service.ServiceApplication</demo.main>
     </properties>
 
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>huaweicloudsdk-releases</id>
+            <name>huaweicloudsdk</name>
+            <url>https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/</url>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
