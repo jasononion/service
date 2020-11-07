@@ -75,7 +75,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                     <encoding>UTF-8</encoding>
-<!--                    <configLocation>checkstyle.xml</configLocation>-->
+                    <configLocation>checkstyle.xml</configLocation>
                     <consoleOutput>true</consoleOutput>
                 </configuration>
                 <executions>
