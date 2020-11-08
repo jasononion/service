@@ -1,5 +1,5 @@
 #bin/sh
-if [[ $(mvn checkstyle:check|grep WARN|wc -l) -gt 19 ]]; then
+if [[ $(mvn checkstyle:check|grep WARN|wc -l) -gt 10 ]]; then
     echo "${red}Check style failed.${reset}"
     exit 1
 else
