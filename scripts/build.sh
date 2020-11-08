@@ -1,5 +1,7 @@
 #bin/sh
-if [[ $(mvn checkstyle:check|grep WARN|wc -l) -gt 10 ]]; then
+count=$(mvn checkstyle:check|grep WARN|wc -l)
+echo "checkstyle violation count: $count"
+if [[ $count -gt 19 ]]; then
     echo "${red}Check style failed.${reset}"
     exit 1
 else
