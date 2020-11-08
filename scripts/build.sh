@@ -1,8 +1,9 @@
 #bin/sh
-mvn checkstyle:check
-if [ $? != 0 ]; then
-    echo "${red}Unit test failed.${reset}"
+if [[ $(mvn checkstyle:check|grep WARN|wc -l) -gt 19 ]]; then
+    echo "${red}Check style failed.${reset}"
     exit 1
+else
+    echo "Check style success!"
 fi
 
 mvn clean test
