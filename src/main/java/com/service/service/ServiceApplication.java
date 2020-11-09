@@ -13,6 +13,9 @@ import org.apache.servicecomb.foundation.common.utils.Log4jUtils;
  * @since  [产品/模块版本]
  */
 public class ServiceApplication {
+    // Add for pmd violation test
+    private int abc;
+
     public static void main(String[] args) throws Exception {
         Log4jUtils.init();
         BeanUtils.init();

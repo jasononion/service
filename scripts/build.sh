@@ -8,7 +8,7 @@ else
     echo "Check style success!"
 fi
 
-mvn clean test
+mvn test
 if [ $? == 0 ]; then
     echo "${green}Test Success..${reset}"
 else
